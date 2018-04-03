@@ -42,3 +42,8 @@ h1{
 .playlist-title {
   padding-top: 100px;
 }
+
+#about-me-text {
+  text-align: center;
+  font-size: 16px;
+}

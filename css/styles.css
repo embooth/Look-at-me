@@ -32,6 +32,10 @@ h1{
   text-transform: uppercase;
 }
 
+#nav li a.current_page { 
+  color: orange;
+}
+
 #subhead {
   text-align: center;
   font-style: italic;
@@ -51,8 +55,4 @@ h1{
 .about-me-text {
   text-align: center;
   font-size: 16px;
-}
-
-.current_page { 
-  color: orange;
 }

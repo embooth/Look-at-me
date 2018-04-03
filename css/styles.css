@@ -31,3 +31,8 @@ h1{
   font-size: 16px;
   text-transform: uppercase;
 }
+
+#subhead {
+  text-align: center;
+  font-style: italic;
+}

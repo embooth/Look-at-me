@@ -38,3 +38,7 @@ h1{
   font-size: 16px;
   text-transform: uppercase;
 }
+
+.playlist-title {
+  padding-top: 100px;
+}

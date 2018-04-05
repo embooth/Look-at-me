@@ -62,24 +62,25 @@
 <div>
   <h2 id='comment-section-title'> Are you listening? </h2>
   <div class="comment-section">
-<textarea id="comment-text" value="What do you think..."></textarea>
-<button onclick="commentFunction()">
-Submit
-</button>
-<div id="comments">
+  <textarea id="comment-text" value="your thoughts..."></textarea>
+  <button onclick="commentFunction()">
+   Submit
+  </button>
+   <div id="comments">
+   </div>
+ </div>
 
-</div>
-</div>
+ <script>
+     function commentFunction() {
+        var comments = document.getElementById("comment-text").value;
+        var commentTag = document.createTextNode(comments);
+        var finishedComment = document.createElement("LI");
+        var qComment = document.createElement("P");
+        qComment.appendChild(commentTag);
+        finishedComment.appendChild(qComment);
+        document.getElementById("comments").appendChild(finishedComment);
+     };
 
-<script>
- function commentFunction() {
-    var comments = document.getElementById("comment-text").value;
-    var commentTag = document.createTextNode(comments);
-    document.body.appendChild(commentTag);
- };
-
-</script>
-
-
+ </script>
 
 </div>

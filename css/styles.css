@@ -85,3 +85,6 @@ h1{
   font-size: 16px;
   padding: 12px;
 }
+#comment-text {
+    margin-left: 12px;
+}

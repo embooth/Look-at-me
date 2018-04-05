@@ -67,6 +67,11 @@ h1{
   /* change me for text container */
 }
 
+#col-sm-8 {
+  text-align: center;
+}
+
+
 #comments > li > p {
   /* change me for text! */
   color: black;

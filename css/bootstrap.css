@@ -109,6 +109,48 @@ samp {
   font-size: 1em;
 }
 button,
+
+element.style {
+}
+
+.button1 {
+    color:white;
+    background-color: green;
+
+}
+
+.button2{
+  color: white;
+  background-color: blue;
+
+  }
+
+  .button3{
+    color: white;
+    background-color: purple;
+
+    }
+
+    .button4{
+      color: white;
+      background-color: orange;
+
+      }
+
+      .button5{
+        color: white;
+        background-color: pink;
+
+        }
+
+element.style {
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
 input,
 optgroup,
 select,

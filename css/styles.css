@@ -63,7 +63,7 @@ h1{
   height: 80px;
   width: 100vw;
   font-size: 16px;
-  padding: 0px;
+  padding: 12px;
   /* change me for text container */
 }
 
@@ -78,5 +78,5 @@ h1{
   height: 80px;
   width: 168px;
   font-size: 16px;
-  padding: 0px;
+  padding: 12px;
 }
